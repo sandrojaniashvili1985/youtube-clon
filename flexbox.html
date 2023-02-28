@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox practice</title>
+  <style>
+    .main {
+      background-color: rosybrown;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .item {
+      background-color: aqua;
+    }
+
+
+    .flexbox {
+      height: 50px;
+      background-color: beige;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-width:  1px;
+      border-color: chartreuse;
+      border-style: solid;
+      align-items: center;
+
+    }
+    .pink {
+      background-color: pink;
+      
+      
+    }
+
+  </style>
+</head>
+<body>
+  <div style="
+    display: flex;
+    flex-direction: row;">
+    <div style="background-color: lightblue;">div 1</div>
+    <div style="background-color: lightpink;">div 2 <p>text</p></div>
+  </div>
+
+  <div style=" margin-top: 30px;
+    display: flex;
+    flex-direction: row;">
+    <div style="background-color: lightblue;
+    width: 100px;">div 1</div>
+    <div style="background-color: lightpink;
+    flex: 1;">div 2 </div>
+</div>
+<div style="margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;">
+  <div style="background-color: lightblue;
+  flex: 1">flex 1</div>
+  <div style="background-color: lightpink;
+  flex: 1;">flex 2 </div>
+  <div style="background-color: lightblue;
+  flex: 1;">flex 3</div>
+</div><hr>
+
+
+<div class="main">
+    <section class="item one">item 1</section>
+    <section class="item two">item 2</section>
+    <section class="item three">item 3</section>
+    <section class="item four">item 4</section>
+</div><hr>
+
+<div class="flexbox">
+  <div class="pink">item 1</div>
+  <div class="pink">item 2</div>
+</div>
+</body>
+</html>

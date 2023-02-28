@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid-test</title>
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+      height: 200px;
+      column-gap: 5px;
+      row-gap: 10px;
+      line-height: 100px;
+    }
+    .one {
+      background-color: aqua;
+    }
+    .two {
+      background-color: azure;
+    }
+    .three {
+      background-color:cornflowerblue;
+    }
+    .four {
+      background-color: brown;
+    }
+    .five {
+      background-color: crimson;
+    }
+    .six {
+      background-color: darkred;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="one">one</div>
+    <div class="two">two</div>
+    <div class="three">three</div>
+    <div class="four">four</div>
+    <div class="five">five</div>
+    <div class="six">six</div>
+
+  </div>
+</body>
+</html>
